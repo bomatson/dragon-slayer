@@ -39,6 +39,7 @@ gem 'spring',        group: :development
 gem 'pry-rails', group: [:development, :test]
 
 group :development, :test do
+  gem 'minitest'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
 end
