@@ -20,8 +20,8 @@ class Knight < ActiveRecord::Base
     self.update_attributes(health: new_health)
   end
 
-  # three things your knight can do
-  # write tests for each
+  # one thing your knight can do
+  # write test
   # show and tell
   # BONUS attack the dragon (return a string with lowered health )
 end
